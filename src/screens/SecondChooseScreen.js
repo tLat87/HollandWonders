@@ -11,7 +11,7 @@ const SecondChooseScreen = ({ navigation, route }) => {
             <Text style={{color: '#fff', fontSize: 20,fontWeight: 'bold', marginBottom: 10}}>
                 The Ghost of the Green Dunes
             </Text>
-            <Image source={{uri: data['second'].img}} style={{width:'100%', height: 200, borderRadius: 20}}/>
+            <Image source={data['second'].img} style={{width:'100%', height: 200, borderRadius: 20}}/>
             <Text style={{color: '#fff', fontSize: 16, marginBottom: 20, marginTop: 10}}>
                 {data['second'].text}
                  </Text>
